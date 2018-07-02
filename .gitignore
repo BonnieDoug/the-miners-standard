@@ -12,3 +12,7 @@ dist
 
 # Idea
 .idea
+
+# Service Worker
+sw.*
+

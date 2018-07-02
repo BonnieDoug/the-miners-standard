@@ -18,6 +18,7 @@
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
+    "@nuxtjs/pwa": "^2.0.8",
     "nuxt": "^1.0.0",
     "vuetify": "^1.0.0"
   },
