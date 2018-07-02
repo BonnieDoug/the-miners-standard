@@ -8,7 +8,7 @@
 <template>
     <div>
         <section>
-            <v-parallax src="/images/hero1.jpg" height="650" class="hero-1">
+            <v-parallax src="~/assets/hero1.jpg" height="650" class="hero-1">
                 <v-layout
                         column
                         align-center
