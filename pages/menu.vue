@@ -1,5 +1,3 @@
-<style>
-</style>
 <template>
     <div>
         <section>
@@ -23,11 +21,12 @@
             <v-flex xs12 sm8 offset-sm2>
                 <v-card>
                     <v-card-text>
-                        <h2>Eat</h2>
-                        <p>The Miners Standard has an large array of food to suit every taste whether you are vegan,
+                        <h2 class="display-4">Eat</h2>
+                        <hr>
+                        <p class="headline" style="margin-top:10px;">The Miners Standard has an large array of food to suit every taste whether you are vegan,
                             vegetarian or a meat eater. Every dietary requirement whether you're dairy-free gluten free,
                             fat free our Chef will endeavour to cook you your very own special meal.</p>
-                        <p>Please ensure you
+                        <p class="headline">Please ensure you
                             let us know before you arrive so we can ensure we have the right ingredients. Please phone
                             in advance and we will do our utmost to make sure that you are catered for.</p>
                     </v-card-text>
@@ -38,10 +37,11 @@
             <v-flex xs12 sm8 offset-sm2>
                 <v-card>
                     <v-card-text>
-                        <h2>Drink</h2>
-                        <p>The Miners Standard is a free house with a great variety of lagers, cask ales, spirits, gin
+                        <h2 class="display-4">Drink</h2>
+                        <hr>
+                        <p class="headline" style="margin-top:10px;">The Miners Standard is a free house with a great variety of lagers, cask ales, spirits, gin
                             and whiskeys available.</p>
-                        <p>Some of our Ales are locally sourced and loved by all.</p>
+                        <p class="headline">Some of our Ales are locally sourced and loved by all.</p>
                     </v-card-text>
                 </v-card>
             </v-flex>

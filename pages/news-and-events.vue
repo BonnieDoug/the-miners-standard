@@ -17,8 +17,11 @@
             <v-flex xs12 sm8 offset-sm2>
                 <v-card>
                     <v-card-text>
-                        <h2>Headline</h2>
-                        <p>Page content.</p>
+                        <h2 class="display-4">Upcoming Events</h2>
+                        <hr>
+
+
+
                     </v-card-text>
                 </v-card>
             </v-flex>

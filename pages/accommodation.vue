@@ -22,35 +22,36 @@
             <v-flex xs12 sm8 offset-sm2>
                 <v-card>
                     <v-card-text>
-                        <h2>Stay with us.</h2>
-                        <p>Camping, tents and caravans all welcome. Limited availability for caravans and electric hook
+                        <h2 class="display-4">Stay with us.</h2>
+                        <hr>
+                        <p class="headline" style="margin-top:10px;">Camping, tents and caravans all welcome. Limited availability for caravans and electric hook
                             ups please book in advance.
                         </p>
-                        <h4>Prices
+                        <h4 class="display-1">Prices
                             <small>(Per person, per night)</small>
                             :
                         </h4>
 
-                        <ul>
+                        <ul class="headline">
                             <li>£5 for each 12+</li>
                             <li>£3 for 5 to 12 year olds</li>
                             <li>Under 5's are free</li>
                         </ul>
-                        <p>Toilets and showers are available there’s a £1 charge for the showers.</p>
+                        <p class="headline">Toilets and showers are available there’s a £1 charge for the showers.</p>
 
-                        <p>The miners standard pub is also on site for amazing food and refreshments if wanted. Well
+                        <p class="headline">The miners standard pub is also on site for amazing food and refreshments if wanted. Well
                             behaved Dogs are all welcome at the campsite however dogs must be kept on a lead.
                         </p>
-                        <p>The Miners Standard is a free house with a great variety of lagers, cask ales, spirits, gin
+                        <p class="headline">The Miners Standard is a free house with a great variety of lagers, cask ales, spirits, gin
                             and whiskeys available.
                         </p>
-                        <h4>We have 3 bed and breakfast rooms:</h4>
-                        <ul>
+                        <h4 class="display-1">We have 3 bed and breakfast rooms:</h4>
+                        <ul class="headline">
                             <li>Family room</li>
                             <li>Twin room</li>
                             <li>Single room</li>
                         </ul>
-                        <p>Please ring for prices and availability. You can also find us on uk campsites. Please contact
+                        <p class="headline">Please ring for prices and availability. You can also find us on uk campsites. Please contact
                             us on <a href="tel:01629 650279.">01629 650279</a>.
                         </p>
                     </v-card-text>

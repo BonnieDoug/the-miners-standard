@@ -17,9 +17,9 @@
                         justify-center
                         class="white--text"
                 >
-                    <h1 class="white--text mb-2 display-1 text-xs-center" style="line-height: 3.5rem !important; max-width: 400px; font-size: 400% !important; text-shadow: 2px 2px #111;">Contact Us</h1>
+                    <h1 class="white--text mb-2 display-4 text-xs-center" style="line-height: 3.5rem !important; max-width: 400px; font-size: 400% !important; text-shadow: 2px 2px #111;">Contact Us</h1>
                     <div class="subheading mb-3 text-xs-center" style="text-shadow: 2px 2px #111; font-size: 140% !important;">
-                        <a style="color:white; text-decoration: none" href="tel:01629 650279.">01629 650279</a>
+                        <a class="headline" style="color:white; text-decoration: none" href="tel:01629 650279.">01629 650279</a>
                     </div>
                 </v-layout>
             </v-parallax>
@@ -28,15 +28,19 @@
             <v-flex xs12 sm8 offset-sm2>
                 <v-card>
                     <v-card-text>
-                        <h2>Find Us <v-icon>location_on</v-icon></h2>
+                        <h2 class="display-4">Find Us <v-icon style="font-size:100px !important;padding-bottom:15px;">location_on</v-icon></h2>
+                        <div style="position: relative">
                         <a href="https://www.google.co.uk/maps/dir//The+Miners+Standard,+Bank+Top,+Winster,+Matlock+DE4+2DR" target="_blank">
                         <div class="map"></div>
                         </a>
-                        <p>The Miners Standard,<br>
+                        <div style="color:white;position:absolute;top:10px;left:10px; background-color: rgba(0,0,0,0.5); padding: 10px;">
+                        <p class="headline">The Miners Standard,<br>
                             Bank Top,<br>
                             Winster,<br>
                             Matlock <br>
                             DE4 2DR.</p>
+                        </div>
+                        </div>
                     </v-card-text>
                 </v-card>
             </v-flex>
@@ -45,8 +49,8 @@
             <v-flex xs12 sm8 offset-sm2>
                 <v-card>
                     <v-card-text>
-                        <h2>Call Us <v-icon>phone</v-icon></h2>
-                        <p><a href="tel:01629 650279.">01629 650279</a></p>
+                        <h2 class="display-2">Call Us <v-icon style="font-size:50px !important;padding-bottom:3px;">phone</v-icon></h2>
+                        <p class="headline"><a href="tel:01629 650279.">01629 650279</a></p>
                     </v-card-text>
                 </v-card>
             </v-flex>
@@ -55,8 +59,8 @@
             <v-flex xs12 sm8 offset-sm2>
                 <v-card>
                     <v-card-text>
-                        <h2>Email Us <v-icon>mail</v-icon></h2>
-                        <p><a href="mailto: info@theminerstandardwinster.co.uk">info@theminerstandardwinster.co.uk</a></p>
+                        <h2 class="display-2">Email Us <v-icon style="font-size:50px !important;padding-bottom:3px;">mail</v-icon></h2>
+                        <p class="headline"><a href="mailto: info@theminerstandardwinster.co.uk">info@theminerstandardwinster.co.uk</a></p>
                     </v-card-text>
                 </v-card>
             </v-flex>
