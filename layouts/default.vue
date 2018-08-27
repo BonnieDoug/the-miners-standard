@@ -118,3 +118,10 @@
     }
   }
 </script>
+
+<style>
+    .transparent-box {
+        background-color: rgba(0, 0, 0, 0.40);
+        padding: 20px;
+    }
+</style>

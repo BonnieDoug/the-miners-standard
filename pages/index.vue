@@ -15,11 +15,13 @@
                         justify-center
                         class="white--text"
                 >
-                    <h1 class="white--text mb-2 display-1 text-xs-center"
-                        style="line-height: 3.5rem !important; max-width: 400px; font-size: 400% !important; text-shadow: 2px 2px #111;">
-                        The Miners Standard</h1>
-                    <div class="subheading mb-3 text-xs-center"
-                         style="text-shadow: 2px 2px #111; font-size: 140% !important;">A real taste of Derbshire
+                    <div class="transparent-box">
+                        <h1 class="white--text mb-2 display-1 text-xs-center"
+                            style="line-height: 3.5rem !important; max-width: 400px; font-size: 400% !important; text-shadow: 2px 2px #111;">
+                            The Miners Standard</h1>
+                        <div class="subheading mb-3 text-xs-center"
+                             style="text-shadow: 2px 2px #111; font-size: 140% !important;">A real taste of Derbshire
+                        </div>
                     </div>
                 </v-layout>
             </v-parallax>
@@ -29,7 +31,7 @@
             <v-flex xs12 sm8 offset-sm2>
                 <v-card>
                     <v-card-text>
-                        <h2 class="display-4">A little about us.</h2>
+                        <h2 class="display-3">A little about us.</h2>
                         <hr>
                         <p class="headline" style="margin-top:10px;">The Miners Standard is a very busy little pub in
                             the quaint little village of Winster settled
