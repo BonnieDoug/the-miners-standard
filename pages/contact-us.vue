@@ -43,11 +43,11 @@
                                 <div class="map"></div>
                             </a>
                             <div style="color:white;position:absolute;top:10px;left:10px; background-color: rgba(0,0,0,0.5); padding: 10px;">
-                                <p class="headline">The Miners Standard,<br>
-                                    Bank Top,<br>
-                                    Winster,<br>
+                                <p class="headline">The Miners Standard<br>
+                                    Bank Top<br>
+                                    Winster<br>
                                     Matlock <br>
-                                    DE4 2DR.</p>
+                                    DE4 2DR</p>
                             </div>
                         </div>
                     </v-card-text>

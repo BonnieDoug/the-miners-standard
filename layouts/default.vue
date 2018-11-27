@@ -44,22 +44,22 @@
                     <v-layout row wrap justify-center class="my-5 white--text">
                         <v-flex xs12 sm4>
                             <v-card class="elevation-0 transparent white--text">
-                                <v-card-title primary-title class="layout justify-center">
-                                    <div class="headline">Find Us</div>
+                                <v-card-title primary-title class="layout my-0 py-0">
+                                    <div class="headline">Find Us.</div>
                                 </v-card-title>
-                                <v-card-text>
-                                    <p><a :href="mapUrl" target="_blank">The Miners Standard,<br>
-                                        Bank Top,<br>
-                                        Winster,<br>
-                                        Matlock <br>
-                                        DE4 2DR.</a></p>
+                                <v-card-text class="pa-1 ma-0">
+                                    <p class="pa-0 ma-0"><a :href="mapUrl" target="_blank" class="white--text">The Miners Standard<br>
+                                        Bank Top<br>
+                                        Winster<br>
+                                        Matlock<br>
+                                        DE4 2DR</a></p>
                                 </v-card-text>
                             </v-card>
                         </v-flex>
                         <v-flex xs12 sm4 offset-sm1>
                             <v-card class="elevation-0 transparent white--text">
-                                <v-card-title primary-title class="layout justify-center">
-                                    <div class="headline">Contact us</div>
+                                <v-card-title primary-title class="layout">
+                                    <div class="headline">Contact us.</div>
                                 </v-card-title>
                                 <v-list class="transparent white--text">
                                     <v-list-tile>

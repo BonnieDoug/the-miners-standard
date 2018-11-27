@@ -31,16 +31,31 @@
             <v-flex xs12 sm8 offset-sm2>
                 <v-card>
                     <v-card-text>
-                        <h2 class="display-3">A little about us.</h2>
+                        <h2 class="display-3">Welcome to The Miners Standard in Winster.</h2>
                         <hr>
-                        <p class="headline" style="margin-top:10px;">The Miners Standard is a very busy little pub in
-                            the quaint little village of Winster settled
-                            in heart of the Peak District not far from the busy towns of Matlock Bakewell Buxton and
-                            Chesterfield. This pub is a family owned borough restaurant, campsite and bed and breakfast.
-                            Catering for everybody's needs, with stunning views overlooking Robin Hood stride and only a
-                            few miles away from the nine ladies in Birchover. If you're up for walking, rock climbing
-                            and/or canoeing or just want to have a relax or fancy a little bit of the outdoors, the
-                            Miners Standard it's right place for you.</p>
+                        <p class="headline" style="margin-top:10px;">
+                            <strong>Lindsay and Wez would like to offer a warm and friendly welcome to their hostelry in the
+                            heart of the Derbyshire Peak District. The pub is located on the outskirts of the once
+                            industrial lead mining village of Winster. It is ideally situated to offer both walking and
+                            driving trips to see some of the best scenery the Peak District has to offer. The Heights of
+                            Abraham with its spectacular ride across the Derwent Valley & Hilltop Park, Crich Tramway
+                            Village with its tram rides and Carsington Water are just a few places located near to this
+                                fantastic warm and welcoming pub.</strong></p>
+                        <p class="headline">Lead mining in Winster can be traced back into the 1600’s, although it is safe to say that
+                            it took place long before then. A walk around the village will help you understand how the
+                            village became such a prosperous place to live.</p>
+                        <p class="headline">The Inn, believed to have been built circa 1653 was originally a farm house, but as the lead
+                            mines started to progress down the valley following the seams of lead, Inn’s and ale houses
+                            started to spring up to quench the thirst of the miners. It is said that at one time there
+                            were thirty seven places you could buy beer in the village, with The Miners Standard
+                            probably one of the first.</p>
+                        <p class="headline">The name of the pub derived from a brass measuring dish presented to the miners in 1533 by
+                            Henry the 8th. It was known as the miners standard and it was this dish the barmaster (or
+                            senior official) of the mining field used to take measuring’s at the mines he visited.
+                            The letters above the front porch EP EP FP are said to stand for Edith, Ella and Frank
+                            Prince, former owners of the Inn. Most of the time they stood for ‘Every person entering
+                            pays for a pint’. So come along and spend time at The Miners Standard and find out more
+                            about what Winster and the surrounding area have to offer.</p>
 
                         <v-container grid-list-xl>
                             <v-layout row wrap align-center>

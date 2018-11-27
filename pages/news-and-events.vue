@@ -74,33 +74,27 @@
       return {
         events: [
           {
-            name: 'Event 1',
+            name: 'Visit from the Guisers',
             description: 'Bacon ipsum dolor amet meatball buffalo pork loin meatloaf, t-bone ribeye ham sausage salami pastrami kevin venison short loin spare ribs. Pork chop bresaola pork belly short ribs. Drumstick turducken beef, ball tip filet mignon pork belly shankle bacon.',
-            date: '10:10:10 10/10/2018',
+            date: 'Saturday 22nd December 2018',
             image: 'https://picsum.photos/800/300/?random'
           },
           {
-            name: 'Event 2',
-            description: 'Bacon ipsum dolor amet meatball buffalo pork loin meatloaf, t-bone ribeye ham sausage salami pastrami kevin venison short loin spare ribs. Pork chop bresaola pork belly short ribs. Drumstick turducken beef, ball tip filet mignon pork belly shankle bacon.',
-            date: '10:10:10 10/10/2018',
+            name: 'Children\'s Christmas Party',
+            description: 'Running from 4pm till 6pm. Party food and entertainment will be provided',
+            date: 'Sunday 23rd December 2018',
             image: 'https://picsum.photos/800/300/?random'
           },
           {
-            name: 'Event 3',
+            name: 'Carol Singing',
             description: 'Bacon ipsum dolor amet meatball buffalo pork loin meatloaf, t-bone ribeye ham sausage salami pastrami kevin venison short loin spare ribs. Pork chop bresaola pork belly short ribs. Drumstick turducken beef, ball tip filet mignon pork belly shankle bacon.',
-            date: '10:10:10 10/10/2018',
+            date: 'Sunday 30th December 2018',
             image: 'https://picsum.photos/800/300/?random'
           },
           {
-            name: 'Event 4',
+            name: 'New Years Eve Party',
             description: 'Bacon ipsum dolor amet meatball buffalo pork loin meatloaf, t-bone ribeye ham sausage salami pastrami kevin venison short loin spare ribs. Pork chop bresaola pork belly short ribs. Drumstick turducken beef, ball tip filet mignon pork belly shankle bacon.',
-            date: '10:10:10 10/10/2018',
-            image: 'https://picsum.photos/800/300/?random'
-          },
-          {
-            name: 'Event 5',
-            description: 'Bacon ipsum dolor amet meatball buffalo pork loin meatloaf, t-bone ribeye ham sausage salami pastrami kevin venison short loin spare ribs. Pork chop bresaola pork belly short ribs. Drumstick turducken beef, ball tip filet mignon pork belly shankle bacon.',
-            date: '10:10:10 10/10/2018',
+            date: 'Monday 31st December 2018',
             image: 'https://picsum.photos/800/300/?random'
           }
         ]
