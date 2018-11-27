@@ -73,7 +73,7 @@
                         <h2 class="display-2">Email Us
                             <v-icon style="font-size:50px !important;padding-bottom:3px;">mail</v-icon>
                         </h2>
-                        <p class="headline"><a href="mailto: info@theminerstandardwinster.co.uk">info@theminerstandardwinster.co.uk</a>
+                        <p class="headline"><a href="mailto: info@theminerstandardwinster.co.uk">info@theminersstandard.co.uk</a>
                         </p>
                     </v-card-text>
                 </v-card>

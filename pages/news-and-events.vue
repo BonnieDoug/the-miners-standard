@@ -31,7 +31,7 @@
                                     grid-list-xl
                             >
                                 <v-layout row wrap>
-                                    <v-flex xs12 v-for="event, key in events" :key="key">
+                                    <v-flex xs12 md6 v-for="event, key in events" :key="key">
                                         <v-card class="elevation-6">
                                             <v-card-media
                                                     class="white--text"
@@ -46,15 +46,14 @@
                                                     </v-layout>
                                                 </v-container>
                                             </v-card-media>
-                                            <v-card-title>
-                                                {{ event.description }}
-                                                <hr>
-                                                {{ event.date }}
-                                            </v-card-title>
-                                            <v-card-actions class="grey lighten-2">
-                                                <v-spacer></v-spacer>
-                                                <v-btn outline color="green">Book now</v-btn>
-                                            </v-card-actions>
+                                            <v-card-text>
+                                                <h3 class="pt-2 pb-0 mb-0"><strong>{{ event.date }}</strong></h3>
+                                                <v-divider></v-divider>
+                                                <p class="subheading pt-2">{{ event.description }}</p>
+                                            </v-card-text>
+                                            <div class="grey darken-4 white--text text-xs-center" style="height: 40px;">
+                                                <h3 class="pt-2">Don't miss out! Book now by calling 01629 650 279</h3>
+                                            </div>
                                         </v-card>
                                     </v-flex>
                                 </v-layout>
