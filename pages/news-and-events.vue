@@ -49,10 +49,10 @@
                                             <v-card-text>
                                                 <h3 class="pt-2 pb-0 mb-0"><strong>{{ event.date }}</strong></h3>
                                                 <v-divider></v-divider>
-                                                <p class="subheading pt-2">{{ event.description }}</p>
+                                                <p class="subheading py-2">{{ event.description }}</p>
                                             </v-card-text>
-                                            <div class="grey darken-4 white--text text-xs-center" style="height: 40px;">
-                                                <h3 class="pt-2">Don't miss out! Book now by calling 01629 650 279</h3>
+                                            <div class="grey darken-4 white--text text-xs-center" style="min-height: 40px;">
+                                                <h4 class="pa-3">Don't miss out! Book now by calling 01629 650 279</h4>
                                             </div>
                                         </v-card>
                                     </v-flex>
