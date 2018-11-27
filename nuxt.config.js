@@ -31,6 +31,9 @@ module.exports = {
   modules: [
     '@nuxtjs/pwa'
   ],
+  manifest: {
+    name: 'Miners Standard'
+  },
   /*
   ** Customize the progress bar color
   */
