@@ -12,7 +12,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js + Vuetify.js project' }
+      { hid: 'description', name: 'description', content: 'Lindsay and Wez would like to offer a warm and friendly welcome to their hostelry in the heart of the Derbyshire Peak District. The pub is located on the outskirts of the once industrial lead mining village of Winster. It is ideally situated to offer both walking and driving trips to see some of the best scenery the Peak District has to offer. The Heights of Abraham with its spectacular ride across the Derwent Valley & Hilltop Park, Crich Tramway Village with its tram rides and Carsington Water are just a few places located near to this fantastic warm and welcoming pub.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
