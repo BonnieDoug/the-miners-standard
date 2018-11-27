@@ -20,7 +20,7 @@
                             style="line-height: 3.5rem !important; max-width: 400px; font-size: 400% !important; text-shadow: 2px 2px #111;">
                             The Miners Standard</h1>
                         <div class="subheading mb-3 text-xs-center"
-                             style="text-shadow: 2px 2px #111; font-size: 140% !important;">A real taste of Derbshire
+                             style="text-shadow: 2px 2px #111; font-size: 140% !important;">A real taste of Derbyshire
                         </div>
                     </div>
                 </v-layout>
@@ -110,3 +110,4 @@
     </div>
 </template>
 
+<script></script>
