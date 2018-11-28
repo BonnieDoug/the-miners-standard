@@ -1,8 +1,8 @@
-const routerBase = {
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
     base: '/the-miners-standard/'
   }
-}
+} : {}
 module.exports = {
   /*
   ** Headers of the page
