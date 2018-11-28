@@ -82,28 +82,28 @@
             name: 'Visit from the Guisers',
             description: 'The Winster Guisers are in town!! Join us at The Miners Standard to witness this entertaining and amusing performance.',
             date: 'Saturday 22nd December 2018',
-            image: 'https://github.com/BonnieDoug/the-miners-standard/blob/master/static/images/events/guisers-1.jpg',
+            image: 'https://bonniedoug.github.io/the-miners-standard/images/events/guisers-1.jpg',
             colour: '#000'
           },
           {
             name: 'Children\'s Christmas Party',
             description: 'The Miners Standard are hosting a Christmas party for kids of all ages!! There will be music and dancing along with party games. Party food will be provided as well as a selection of goodies to get you in the festive spirit.',
             date: 'Sunday 23rd December 2018',
-            image: 'https://github.com/BonnieDoug/the-miners-standard/blob/master/static/images/events/christmas-2.jpg',
+            image: 'https://bonniedoug.github.io/the-miners-standard/images/events/christmas-2.jpg',
             colour: '#a32c17'
           },
           {
             name: 'Carol Singing',
             description: 'The Miners Standard are continuing the tradition of the annual Carol Singing Service.  Bring your voices and join us for a mince pie at this festive event.',
             date: 'Sunday 30th December 2018',
-            image: 'https://github.com/BonnieDoug/the-miners-standard/blob/master/static/images/events/christmas-1.jpg',
+            image: 'https://bonniedoug.github.io/the-miners-standard/images/events/christmas-1.jpg',
             colour: '#dd1530'
           },
           {
             name: 'New Years Eve Party',
             description: 'New Years Eve Party - Wez and Lindsay invite you to The Miners Standard to celebrate the end of 2018 and the beginning of 2019. Join us to let in the New Year with family and friends whilst enjoying music, party food and a wide selection of drinks.',
             date: 'Monday 31st December 2018',
-            image: 'https://github.com/BonnieDoug/the-miners-standard/blob/master/static/images/events/christmas-3.jpg',
+            image: 'https://bonniedoug.github.io/the-miners-standard/images/events/christmas-3.jpg',
             colour: '#cb9a6c'
           }
         ]
