@@ -20,7 +20,7 @@
             </v-parallax>
         </section>
         <section>
-            <v-flex xs12 sm8 offset-sm2>
+            <v-flex xs12 md12 lg8 offset-lg2>
                 <v-card>
                     <v-card-text>
                         <h2 class="display-3">Upcoming Events</h2>
@@ -35,24 +35,30 @@
                                         <v-card class="elevation-6" small>
                                             <v-card-media
                                                     class="white--text"
-                                                    height="300px"
+                                                    height="280px"
                                                     :src="event.image"
                                             >
-                                                <v-container fill-height fluid>
-                                                    <v-layout fill-height>
-                                                        <v-flex xs12 align-end flexbox class="ma-2 pa-2">
-                                                            <span class="headline pa-3" :style="'background-color:' + event.colour">{{ event.name }}</span>
+                                                <v-container fill-height>
+                                                    <v-layout align-end>
+                                                        <v-flex>
+                                                            <span class="headline pa-2"
+                                                                  :style="'background-color:' + event.colour">{{ event.name }}</span>
                                                         </v-flex>
                                                     </v-layout>
                                                 </v-container>
                                             </v-card-media>
                                             <v-card-text style="min-height:150px" class="pb-0 mb-0">
-                                                <h3 class="pt-2 pb-0 mb-0"><strong>{{ event.date }}</strong></h3>
+                                                <h3 class="pt-2 pb-0 mb-0"><strong v-html="event.date"/></h3>
                                                 <v-divider></v-divider>
-                                                <p class="subheading py-2">{{ event.description }}</p>
+                                                <p class="subheading py-2" v-html="event.description"/>
                                             </v-card-text>
-                                            <div class="grey darken-4 white--text text-xs-center" style="min-height: 40px;">
-                                                <h4 class="pa-3">Don't miss out! Book now by calling 01629 650 279</h4>
+                                            <div class="grey darken-4 white--text text-xs-center"
+                                                 style="min-height: 40px;">
+                                                <h4 class="pa-3">Don't miss out! Book now by calling
+                                                    <span style="white-space: pre;">
+                                                    <a class="text--white" href="tel:01629 650 279">01629 650 279</a>
+                                                </span>
+                                                </h4>
                                             </div>
                                         </v-card>
                                     </v-flex>
