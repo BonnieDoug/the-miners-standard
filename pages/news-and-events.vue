@@ -36,7 +36,7 @@
                                             <v-card-media
                                                     class="white--text"
                                                     height="280px"
-                                                    :src="event.image"
+                                                    v-bind:src="event.image"
                                             >
                                                 <v-container fill-height>
                                                     <v-layout align-end>
