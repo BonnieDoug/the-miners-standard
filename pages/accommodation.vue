@@ -26,9 +26,10 @@
                     <v-card-text>
                         <h2 class="display-3">Stay with us.</h2>
                         <hr>
-                        <p class="headline" style="margin-top:10px;">Camping, tents and caravans all welcome. Limited
+                        <p class="headline" style="margin-top:10px;">Camping - tents and caravans are all welcome.
+                            Limited
                             availability for caravans and electric hook
-                            ups please book in advance.
+                            ups so please book in advance.
                         </p>
                         <h4 class="display-1">Prices
                             <small>(Per person, per night)</small>
@@ -36,19 +37,18 @@
                         </h4>
 
                         <ul class="headline">
-                            <li>£5 for each 12+</li>
-                            <li>£3 for 5 to 12 year olds</li>
+                            <li>£5 for each 5 years and upwards</li>
                             <li>Under 5's are free</li>
                         </ul>
-                        <p class="headline">Toilets and showers are available there’s a £1 charge for the showers.</p>
+                        <p class="headline">Toilets and showers are available with a £1 charge for the showers.</p>
 
-                        <p class="headline">The miners standard pub is also on site for amazing food and refreshments if
-                            wanted. Well
-                            behaved Dogs are all welcome at the campsite however dogs must be kept on a lead.
-                        </p>
-                        <p class="headline">The Miners Standard is a free house with a great variety of lagers, cask
-                            ales, spirits, gin
-                            and whiskeys available.
+                        <p class="headline">Well behaved dogs are welcome on the campsite and in the pub, but must be
+                            kept on a lead at all times.
+                        <p class="headline">Fires are permitted on the camping field, however, they must be raised off
+                            the grass in a fire pit. The removal of stone from the perimeter wall is strictly
+                            forbidden.</p>
+                        <p class="headline"><strong>Note:</strong> The campsite will be closed from 1st November until
+                            1st March.
                         </p>
                         <h4 class="display-1">We have 3 bed and breakfast rooms:</h4>
                         <ul class="headline">

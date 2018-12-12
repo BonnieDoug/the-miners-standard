@@ -1,11 +1,18 @@
-# STATIC
+# The Miners Standard
 
-This directory contains your static files.
-Each file inside this directory is mapped to /.
+## Development
 
-Example: /static/robots.txt is mapped as /robots.txt.
+Once repo has been cloned (git clone 'git@github.com:BonnieDoug/the-miners-standard.git')
 
-More information about the usage of this directory in the documentation:
-https://nuxtjs.org/guide/assets#static
+Run `npm install` to install the dependencies.
+ 
+Then run `npm run dev` which will compile the source and run the app in development mode, with hot-reloading.
 
-**This directory is not required, you can delete it if you don't want to use it.**
+## Deploy changes
+
+Om order to compile all changes and push to the live server run the following commands:
+
+```cli
+npm run generate
+npm run deploy
+```
