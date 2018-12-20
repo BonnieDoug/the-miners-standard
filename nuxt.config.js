@@ -5,9 +5,9 @@ module.exports = {
   head: {
     title: 'The Miners Standard - Winster',
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: ' The Miners Standard - A real taste of Derbyshire.' },
+      {charset: 'utf-8'},
+      {name: 'viewport', content: 'width=device-width, initial-scale=1'},
+      {hid: 'description', name: 'description', content: ' The Miners Standard - A real taste of Derbyshire.'},
       {
         hid: `og:title`,
         property: 'og:title',
@@ -15,8 +15,8 @@ module.exports = {
       }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
+      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
+      {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'}
     ]
   },
   plugins: ['~/plugins/vuetify.js'],
@@ -24,7 +24,8 @@ module.exports = {
     '~/assets/style/app.styl'
   ],
   modules: [
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    'nuxt-imagemin'
   ],
   manifest: {
     name: 'Miners Standard'
@@ -32,7 +33,7 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#3B8070' },
+  loading: {color: '#3B8070'},
   /*
   ** Build configuration
   */
@@ -49,7 +50,9 @@ module.exports = {
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
+          loaders: [
+            'eslint-loader'
+          ],
           exclude: /(node_modules)/
         })
       }
