@@ -1,22 +1,18 @@
-# miners-standard
+# The Miners Standard
 
-> Nuxt.js + Vuetify.js project
+## Development
 
-## Build Setup
+Once repo has been cloned (git clone 'git@github.com:BonnieDoug/the-miners-standard.git')
 
-``` bash
-# install dependencies
-$ npm install # Or yarn install
+Run `npm install` to install the dependencies.
+ 
+Then run `npm run dev` which will compile the source and run the app in development mode, with hot-reloading.
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## Deploy changes
 
-# build for production and launch server
-$ npm run build
-$ npm start
+Om order to compile all changes and push to the live server run the following commands:
 
-# generate static project
-$ npm run generate
+```cli
+npm run generate
+npm run deploy
 ```
-
-For detailed explanation on how things work, check out the [Nuxt.js](https://github.com/nuxt/nuxt.js) and [Vuetify.js](https://vuetifyjs.com/) documentation.
