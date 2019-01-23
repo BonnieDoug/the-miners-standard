@@ -25,10 +25,15 @@ module.exports = {
   ],
   modules: [
     '@nuxtjs/pwa',
-    'nuxt-imagemin'
+    'nuxt-imagemin',
+    '@nuxtjs/sitemap'
   ],
   manifest: {
     name: 'Miners Standard'
+  },
+  sitemap: {
+    generate: true,
+    hostname: 'https://theminersstandard.co.uk'
   },
   /*
   ** Customize the progress bar color
